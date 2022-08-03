@@ -1,0 +1,102 @@
+
+a{
+    color:white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.hed{  
+    float: right;
+    padding-right: 20px;
+}
+/*========= 背景動画設定のCSS ===============*/
+
+/*header設定*/
+#header{
+    position: relative;/*h1の中央寄せ配置の起点とするためのrelative*/
+    height: 100vh;/*高さを全画面にあわせる*/
+    
+} 
+
+#video-area{
+    position: fixed;
+    z-index: -1;/*最背面に設定*/
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+}
+
+#video {
+    /*天地中央配置*/
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*縦横幅指定*/
+    width: 177.77777778vh; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/*見出し設定*/
+header h1{
+    /*要素の配置*/
+    position:absolute;
+    /*要素を天地中央寄せ*/
+    top: 25%;
+    left: 30%;
+    transform: translateY(-50%) translateX(-50%);
+    /*見た目の調整*/
+    color: white;
+    text-shadow: 0 0 15px #666;
+    font-size:110px;
+    opacity: 0.8;
+    font-family: 'Reggae One', cursive;
+   
+}
+header h2{
+        /*要素の配置*/
+        position:absolute;
+        /*要素を天地中央寄せ*/
+        top: 45%;
+        left: 70%;
+        transform: translateY(-50%) translateX(-50%);
+        /*見た目の調整*/
+        color:rgb(0, 0, 0);
+        text-shadow: 0 0 15px #666;
+        font-size:120px;
+        opacity: 0.8;
+        font-family: 'Fredericka the Great', cursive;
+       
+}
+
+
+.contents{
+    float:right;
+    font-family: 'Fredericka the Great', cursive;
+}
+.contents a{
+    color:rgb(109, 107, 107);
+    font-size: 30px;
+    border: 3px solid rgb(109, 107, 107);
+}
+.contents a:hover{
+    background-color: #a09d9d38;
+}
+.contents_top{
+    color:whitesmoke;
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+}
+
+.contents_top a{
+    border: 3px solid whitesmoke;
+}
+.contents_top a:hover{
+    background-color: #a09d9d6b;
+}

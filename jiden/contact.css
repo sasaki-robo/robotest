@@ -1,0 +1,67 @@
+body{
+    background: url(video/writing-pad-g51bbeccbb_1920.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    font-size: large;
+    font-family: 'Yomogi', cursive;
+
+}
+
+
+main{
+    margin:10% 0 0 35%;
+    width: 40%;
+}
+textarea {
+    background-color:transparent;
+}
+.attention{
+    color:rgba(238, 56, 56, 0.932);
+    font-size:small
+   
+}
+input{
+    background-color:transparent;   
+}
+.submit{
+   padding-left:30%;
+   
+}
+.submit input{
+    width: 50%;
+   min-width: 200px;
+   max-width: 600px;
+   padding: 10px;
+   box-sizing: border-box;
+   border: 2px solid rgba(0, 0, 0, 0.226);
+}
+.submit input:hover{
+    border: 2px solid rgba(0, 0, 0, 0.719);
+}
+.contents_top{
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    
+}
+.contents_top a{
+    border: 3px solid whitesmoke;
+    color:white;
+    text-decoration: none;
+}
+.contents_top a:hover{
+    background-color: #a09d9d6b;
+}
+.contents{
+    font-family: 'Fredericka the Great', cursive;
+}
+.contents a{
+    color:rgb(124, 124, 124);
+    font-size: 40px;
+    border: 3px solid rgb(124, 124, 124);
+}
+.contents a:hover{
+    background-color: #5a5a5a38;}
+a{
+     
+    text-decoration: none;
+}

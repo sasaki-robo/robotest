@@ -1,0 +1,89 @@
+.img { 
+    color: whitesmoke;
+    font-family: 'Kaisei Decol', serif;
+    font-size: larger;
+    animation: fadein 3s ease forwards;
+    opacity:0;
+}
+
+
+@keyframes fadein {
+        100% {  opacity: 1;}
+}
+.text1{
+    animation-delay: 1.5s;
+    margin-left: 45%;
+}
+.text2{
+    animation-delay: 3s;
+    margin-left: 45%;
+    
+}.text3{
+    animation-delay: 4.5s;
+    margin-left: 45%;
+}.text4{
+    animation-delay: 6s;
+    margin-left: 45%;
+}.text5{
+    animation-delay: 7.5s;
+    margin-left: 45%;
+}.text6{
+    animation-delay: 9s;
+    margin-left: 45%;
+}.text7{
+    animation-delay: 10.5s;
+    margin-left: 45%;
+}.text8{
+    animation-delay: 12s;
+    margin-left: 45%;
+}.text9{
+    animation-delay: 13.5s;
+    margin-left: 45%;
+}
+    .img h1{
+    margin-bottom: 60px;
+    font-size: 64px;
+    font-family:  'Otomanopee One', sans-serif;
+}
+
+body{
+    background: url(video/hidarituki.jpg) center center / cover no-repeat fixed;
+}
+
+.contents_top{
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    
+}
+.contents_top a{
+    border: 3px solid whitesmoke;
+}
+.contents_top a:hover{
+    background-color: #a09d9d6b;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.img a{
+    float: right;
+    color: red;
+    padding-left: 10px;
+}
+.img a:hover{
+    background-color:rgba(255, 0, 0, 0.185) ;
+}
+.img h1{
+    text-align: right; 
+    margin-right: 20%;
+}
+.contents{
+    font-family: 'Fredericka the Great', cursive;
+}
+.contents a{
+    color:rgb(68, 67, 67);
+    font-size: 40px;
+    border: 3px solid rgb(68, 67, 67);
+}
+.contents a:hover{
+    background-color: #5a5a5a38;}
